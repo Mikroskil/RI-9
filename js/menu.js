@@ -37,5 +37,8 @@ function menu_bar()
 	document.write('  </table>');
 	document.write('</form>');
 	document.write('</div>');
+	
+
+
 }
 

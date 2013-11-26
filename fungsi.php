@@ -17,7 +17,7 @@ function kepala()
 {
 echo'
 <html>
-<head><title>e-Booking System Mata Kuliah Pengganti</title>
+<head><title>E-Booking System Mata Kuliah Pengganti</title>
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
     <script src="js/jquery.js"></script>
     <script src="js/menu.js"></script>
@@ -25,8 +25,14 @@ echo'
 </head>
 <body>
 	<div id="container">';
-}
 
+}
+function judul ()
+{
+	echo'
+	<h1>E-Booking Schedule</h1>
+	';	
+}
 
 function navigasi()
 {

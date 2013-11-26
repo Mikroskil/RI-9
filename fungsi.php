@@ -30,7 +30,7 @@ echo'
 function judul ()
 {
 	echo'
-	<h1>E-Booking Schedule</h1>
+	<div id="judul"><h1>E-Booking Schedule</h1></div>
 	';	
 }
 

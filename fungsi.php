@@ -19,9 +19,23 @@ echo'
 <html>
 <head><title>E-Booking System Mata Kuliah Pengganti</title>
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
-    <script src="js/jquery.js"></script>
+		<link rel="stylesheet" href="css/jquery.ui.datepicker.css" type="text/css">
+    
     <script src="js/menu.js"></script>
-
+	<link rel="stylesheet" href="css/jquery.ui.all.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.ui.core.js"></script>
+	<script src="js/jquery.ui.widget.js"></script>
+	<script src="js/jquery.ui.datepicker.js"></script>
+	
+	<script>
+	$(function() {
+		$( "#datepicker" ).datepicker
+		({
+			showButtonPanel: true
+		});
+	});
+	</script>
 </head>
 <body>
 	<div id="container">';
@@ -44,7 +58,10 @@ function navigasi()
 
 function gadgetkiri()
 {
-	echo'<div id="gadget_kiritampil"></div>';
+	echo'<div id="gadget_kiritampil">
+	<p>Date: <input type="text" id="datepicker"></p>
+
+	</div>';
 }
 
 function gadgetkanan()

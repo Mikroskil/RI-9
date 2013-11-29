@@ -5,7 +5,7 @@
     $host = 'localhost';
     $user = 'root';
     $password = '';
-    $db = 'seputar';
+    $db = 'ri9';
     $conn = @mysql_connect($host,$user,$password) or die('Koneksi Database Gagal!');
     mysql_select_db($db,$conn);
 	return $conn;
@@ -50,7 +50,24 @@ function gadgetkiri()
 function gadgetkanan()
 {
 	echo'<div id="gadget_kanan">
-		<a href="">Login</a>
+							<div>
+								<form method="post" action="">
+									<fieldset>
+										<fieldset>
+											<label>Username</label>
+											<input type="text" name="username" id="username" />
+										</fieldset>
+										<fieldset>
+											<label>Password</label>
+											<input type="password" name="password" id="password" />
+											<input type="hidden" name="tipelogin" value="member">
+										</fieldset>
+										<label  id="error" style="display: none; font-size: 12px;"></label>
+										<input type="submit" class="submit" value="Log In" />
+									</fieldset>
+
+								</form>
+							</div>
 	</div>';
 }
 

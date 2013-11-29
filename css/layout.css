@@ -1,7 +1,7 @@
 body 
 {
 	background: #cccfff;
-	font:14px/1.3em Arial;
+	font:14px/1.3em Helvetica;
 	display:inline;
 	margin:0 auto;
 }
@@ -13,8 +13,10 @@ a
 }
 #judul
 {
-	
-	}
+	color : #333;
+	font-size:18px;
+		
+}
 #container 
 {
 	width: 1024px;

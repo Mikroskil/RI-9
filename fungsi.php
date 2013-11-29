@@ -30,7 +30,7 @@ echo'
 function judul ()
 {
 	echo'
-	<div id="judul"><h1>E-Booking Schedule</h1></div>
+	<div id="judul"><h1>E-Booking Mata Kuliah Pengganti</h1></div>
 	';	
 }
 
@@ -49,7 +49,9 @@ function gadgetkiri()
 
 function gadgetkanan()
 {
-	echo'<div id="gadget_kanan"></div>';
+	echo'<div id="gadget_kanan">
+		<a href="">Login</a>
+	</div>';
 }
 
 function footer()

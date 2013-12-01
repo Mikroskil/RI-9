@@ -44,7 +44,7 @@ echo'
 function judul ()
 {
 	echo'
-	<div id="judul"><h1>E-Booking Mata Kuliah Pengganti</h1></div>
+	<div id="judul"><h1><br /><br /><a href=" ">E-Booking Mata Kuliah Pengganti</a></h1></div>
 	';	
 }
 
@@ -95,8 +95,8 @@ function footer()
 		<div id="wrapper-footer">
 
 					<div id="footer-bottom">
-						<p class="left">www.e-bookingsytemmatkulpengganti.com</p>
-						<p class="right">Design By : &copy Radumta Sitepu</p>
+						<p class="left">www.Schedule E-Booking.com</p>
+						<p class="right">Design By : RI - 9 COMPANY</p>
 					</div>
 		</div>
 

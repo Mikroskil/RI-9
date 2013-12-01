@@ -1,6 +1,6 @@
 body 
 {
-	background: #cccfff;
+	background: #3a7fe5;
 	font:14px/1.3em Helvetica;
 	display:inline;
 	margin:0 auto;
@@ -13,10 +13,22 @@ a
 }
 #judul
 {
-	color : #333;
+	color : #ffffff;
 	font-size:18px;
-		
+    text-align:center;
+    background-image:url('header.jpg');
+    height:100px;
 }
+
+#judul a
+{
+    text-decoration:none;
+    color:#dddddd;  
+ }
+ 
+#judul a:hover{
+    color:white;
+ }
 #container 
 {
 	width: 1024px;

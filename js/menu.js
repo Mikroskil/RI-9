@@ -21,18 +21,7 @@ function menu_bar()
 	
 	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
 	
-	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
 	
-	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
-	
-	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
-	
-	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
-	
-	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
-	
-	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
-
 	document.write('  </tr>');
 	document.write('  </table>');
 	document.write('</form>');

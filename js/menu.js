@@ -17,9 +17,9 @@ function menu_bar()
 	document.write('  <table border="0" cellspacing="1" width="1024">');
 	document.write('    <tr>');
 	
-	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
+	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">BOOKING JADWAL</a></td>');
 	
-	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">HOME</a></td>');
+	document.write('    <td class="menu" id="home" onmouseover="select(\'home\')" onmouseout="disselect(\'home\')" onclick="click(\'home\')"><a href="index.php">JADWAL</a></td>');
 	
 	
 	document.write('  </tr>');

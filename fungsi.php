@@ -96,7 +96,7 @@ function footer()
 
 					<div id="footer-bottom">
 						<p class="left">www.Schedule E-Booking.com</p>
-						<p class="right">Design By : RI - 9 COMPANY</p>
+						<p class="right">Design By : RI-9</p>
 					</div>
 		</div>
 

@@ -16,7 +16,7 @@ if(isset($_POST['Submit']))
 		if(mysql_num_rows($query) == 1)
 		{
 			echo"Login Diterima";
-			header("Location:dosen.php?id=$nip");
+			//header("Location:dosen.php?id=$nip");
 
 		}
 		else

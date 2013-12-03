@@ -68,7 +68,7 @@ function gadgetkanan()
 {
 	echo'<div id="gadget_kanan">
 							<div>
-								<form method="post" action="">
+								<form method="post" action="login.php">
 									<fieldset>
 										<fieldset>
 											<label>Username</label>
@@ -80,7 +80,7 @@ function gadgetkanan()
 											<input type="hidden" name="tipelogin" value="member">
 										</fieldset>
 										<label  id="error" style="display: none; font-size: 12px;"></label>
-										<input type="submit" class="submit" value="Log In" />
+										<input type="submit" class="submit" value="Log In" name="Submit"/>
 									</fieldset>
 
 								</form>

@@ -3,7 +3,16 @@ require_once"fungsi.php";
 kepala();
 judul ();
 navigasi();
-gadgetkiri();
-gadgetkanan();
+echo'
+<div id="gadget_kiritampil">
+	<div id="datepicker"></div>
+	<div><input id="hilang" name="tanggal" value="" type="hidden"></div>
+</div>';
+
+echo'
+<div id="gadget_kanan">';
+	login();
+	include'vooting.php';
+echo'</div>';
 footer();
 ?>

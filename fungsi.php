@@ -56,38 +56,42 @@ function navigasi()
 		<div id="clear"></div>';
 }
 
-function gadgetkiri()
+function login()
 {
-	echo'<div id="gadget_kiritampil">
-	<div id="datepicker"></div>
+	if (ISSET($_SESSION['username']))
+	{
+			echo'
+			<div id="vooting">
+					<p> Selamat Datang Di :<br><b><center>Sistem Ebooking Mata Kuliah Pengganti</center></b><br> Mr/Mrs:';
+					echo $_SESSION['username'];
+					echo'<br><br><a href="logout.php"><input type="button" value="Logout"></a>
+			</div>';
+	}
+	else
+	{
+			echo'
+			<div id="kotaklogin" onsubmit="check_login();return false;">
+				<div id="loginBox">
+					<form id="loginForm">
+						<fieldset id="body">
+							<fieldset>
+								<label>Username</label>
+								<input type="text" name="username" id="username" />
+							</fieldset>
+							<fieldset>
+								<label>Password  </label>
+								<input type="password" name="password" id="password" />
+								<input type="hidden" name="tipelogin" value="member">
+							</fieldset>
+							<label  id="error" style="display: none; font-size: 12px;"></label>
+							<input type="submit" class="submit" value="Log In" />
+						</fieldset>
 
-	</div>';
+					</form>
+				</div>
+			</div>';
+	}
 }
-
-function gadgetkanan()
-{
-	echo'<div id="gadget_kanan">
-							<div>
-								<form method="post" action="login.php">
-									<fieldset>
-										<fieldset>
-											<label>Username</label>
-											<input type="text" name="username" id="username" />
-										</fieldset>
-										<fieldset>
-											<label>Password</label>
-											<input type="password" name="password" id="password" />
-											<input type="hidden" name="tipelogin" value="member">
-										</fieldset>
-										<label  id="error" style="display: none; font-size: 12px;"></label>
-										<input type="submit" class="submit" value="Log In" name="Submit"/>
-									</fieldset>
-
-								</form>
-							</div>
-	</div>';
-}
-
 function footer()
 {
 	echo'

@@ -14,11 +14,11 @@ function check_login()
 			}
 			else if(response=='2')
 			{
-				$('#error').css({'color':'red','display':'block'}).html('Login credentials incorrect!')
+				$('#error').css({'color':'red','display':'block'}).html('User Name atau Password salah. Silahkan cek kembali')
 			}
 			else if(response=='3')
 			{
-				$('#error').css({'color':'red','display':'block'}).html('Please fill in all fields')
+				$('#error').css({'color':'red','display':'block'}).html('Semua Field Harus Diisi')
 			} 
 		}
 	});

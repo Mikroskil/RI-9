@@ -1005,6 +1005,7 @@ $.extend(Datepicker.prototype, {
 			if(x)
 			{
 				inst.input.val(dateStr);
+				(location.href="cek.php");
 			}
 			else
 			{

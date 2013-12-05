@@ -3,8 +3,7 @@ require_once"fungsi.php";
 kepala();
 judul ();
 navigasi();
-gadgetkiri();
-echo'<div>
+echo'<div id="gadget_kiritampil">
 <table border="1" cellpadding="0" cellspacing="0" width="100%">
 <tr>
 	<th>Hari</th><th>Tanggal</th><th>Kelas</th><th>Jlh Sks</th><th>Semester</th>
@@ -35,7 +34,7 @@ echo'<div>
 
 
 </div>';
-gadgetkanan();
+echo'<div id="gadget_kanan"></div>';
 footer();
 
 

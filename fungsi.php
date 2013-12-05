@@ -85,6 +85,7 @@ function login()
 							</fieldset>
 							<label  id="error" style="display: none; font-size: 12px;"></label>
 							<input type="submit" class="submit" value="Log In" />
+							<a href="www.com">Forgot Password?</a>
 						</fieldset>
 
 					</form>

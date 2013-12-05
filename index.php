@@ -12,7 +12,6 @@ echo'
 echo'
 <div id="gadget_kanan">';
 	login();
-	include'vooting.php';
 echo'</div>';
 footer();
 ?>

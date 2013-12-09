@@ -10,15 +10,18 @@ function check_login()
 		{
 			if(response=='1')
 			{
-				(location.href = "index.php")
+				(location.href = "index.php");
 			}
 			else if(response=='2')
 			{
-				$('#error').css({'color':'red','display':'block'}).html('User Name atau Password salah. Silahkan cek kembali')
+				$('#username').val("");
+				$('#password').val("");	
+				$('#error').css({'color':'red','display':'block'}).html('User Name atau Password salah. Silahkan cek kembali');
+				$('#username').focus();
 			}
 			else if(response=='3')
 			{
-				$('#error').css({'color':'red','display':'block'}).html('Semua Field Harus Diisi')
+				$('#error').css({'color':'red','display':'block'}).html('Semua Field Harus Diisi');
 			} 
 		}
 	});

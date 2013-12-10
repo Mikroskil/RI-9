@@ -83,7 +83,7 @@ function login()
 								<input type="password" name="password" id="password" />
 								<input type="hidden" name="tipelogin" value="member">
 							</fieldset>
-							<label  id="error" style="display: none; font-size: 12px;"></label>
+							<label  id="error" style="display: none; font-size: 12px;"></label><br>
 							<input type="submit" class="submit" value="Log In" />
 							<a href="www.com">Forgot Password?</a>
 						</fieldset>

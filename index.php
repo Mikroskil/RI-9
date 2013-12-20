@@ -22,6 +22,8 @@ echo'<div id="gadget_kiritampil">
 	
 	
 	<link rel="stylesheet" type="text/css" href="Slide/engine1/style.css" />
+	<link href="../../dist/css/bootstrap.css" rel="stylesheet">
+	<link href="signin.css" rel="stylesheet">
 	<script type="text/javascript" src="Slide/engine1/jquery.js"></script>
 	</head>
 <body style="background-color:#d7d7d7">

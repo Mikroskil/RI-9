@@ -23,6 +23,8 @@ echo'
 	<script src="js/ajax-login.js"></script>
     <script src="js/menu.js"></script>
 	<link rel="stylesheet" href="css/jquery.ui.all.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/signin.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.ui.core.js"></script>
 	<script src="js/jquery.ui.widget.js"></script>
@@ -76,15 +78,15 @@ function login()
 						<fieldset id="body">
 							<fieldset>
 								<label>Username</label>
-								<input type="text" name="username" id="username" />
+								<input type="text" class="form-control" placeholder="Username" required autofocus>
 							</fieldset>
 							<fieldset>
 								<label>Password  </label>
-								<input type="password" name="password" id="password" />
+								<input type="password" class="form-control" placeholder="Password" required>
 								<input type="hidden" name="tipelogin" value="member">
 							</fieldset>
 							<label  id="error" style="display: none; font-size: 12px;"></label><br>
-							<input type="submit" class="submit" value="Log In" />
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
 							<a href="www.com">Forgot Password?</a>
 						</fieldset>
 

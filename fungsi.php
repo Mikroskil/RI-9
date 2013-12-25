@@ -11,8 +11,6 @@
 	return $conn;
   }
 
-
-
 function kepala()
 {
 echo'
@@ -43,12 +41,6 @@ echo'
 <body>
 	<div id="container">';
 
-}
-function judul ()
-{
-	echo'
-	<div id="judul"><h1><br /><br /><a href=" ">E-Booking Mata Kuliah Pengganti</a></h1></div>
-	';
 }
 
 function navigasi()

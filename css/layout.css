@@ -16,18 +16,17 @@ a
 	color : #ffffff;
 	font-size:18px;
     text-align:center;
-    background-image:url('header.jpg');
     height:100px;
 }
 
 #judul a
 {
     text-decoration:none;
-    color:#dddddd;  
+    color:#2a6496;  
  }
  
 #judul a:hover{
-    color:white;
+    color:#ddd;
  }
 #container 
 {

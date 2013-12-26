@@ -26,7 +26,7 @@ echo'
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="navbar-fixed-top.css">
 	<link rel="stylesheet" href="css/signin.css">
-	<link rel="stylesheet" href="carousel.css">
+	<link href="offcanvas.css" rel="stylesheet">
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.ui.core.js"></script>
 	<script src="js/jquery.ui.widget.js"></script>
@@ -57,7 +57,15 @@ function navigasi()
 	echo'
 	    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
-            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">E-Booking Jadwal</a>
+            </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
